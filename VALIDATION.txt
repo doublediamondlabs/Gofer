@@ -1,0 +1,5 @@
+Gofer 0.6.3 public package
+44 automated tests passed.
+Public-source UI verified with fictional data: Home, Food & fuel, Crew export, empty reference schedule guidance.
+Screenshots captured from an isolated temporary workspace; no workspace records included.
+Native Windows launch and real network-share operation not tested in this environment.

@@ -1,0 +1,3 @@
+Tesseract.js 6.0.1 and tesseract.js-core 6.0.0: Apache-2.0. https://github.com/naptha/tesseract.js and https://github.com/naptha/tesseract.js-core
+English trained data from @tesseract.js-data/eng 1.0.0 (4.0.0_best_int), npm metadata lists MIT; the upstream tessdata repository uses Apache-2.0 (included as tessdata-LICENSE.txt). https://github.com/naptha/tessdata
+Files are redistributed unchanged. See included license files.

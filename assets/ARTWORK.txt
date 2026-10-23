@@ -1,0 +1,36 @@
+Gofer mascot generation prompt:
+Create a NEW sibling application mascot for Go'fer, using supplied Kitty icon ONLY
+as visual style reference. Charming brown gopher small round ears rounded cheeks
+two front teeth lively green eyes warm tan fur leaning paws over navy/mint training
+calendar/planner, friendly adventurous slight head tilt, same polished cartoon
+shading crisp edges. No cat ears/whiskers. Planner simple calendar squares tiny
+trail/mountain motif, no text letters numbers. Centered transparent square app icon
+generous transparent margins, no scene/watermark.
+
+Original: assets/gofer-original.png
+App image: public/gofer.png
+Windows icon: assets/gofer.ico
+
+Purple toe revision: built-in image generation edit, transparent background.
+Prompt: Preserve the friendly golden-brown gopher identity, green eyes, two front
+teeth, rounded ears and polished cartoon rendering. Pose seated with one large
+bare hind foot raised toward the viewer, with a very prominent rich violet-purple
+big toenail readable at taskbar size. Cute ultra-runner inside joke, no wounds or
+gore. Smaller navy/mint planner tucked beside the body, violet binding accents.
+Compact square silhouette, large face/foreground foot, clean outlines, transparent
+background, no text or watermark; two arms and two feet.
+Original: assets/gofer-purple-toe-original.png
+App: public/gofer-purple-toe.png
+Windows: assets/gofer-purple-toe.ico
+
+Over-shoulder revision: built-in image generation edit, transparent background.
+Prompt: Preserve friendly golden-brown gopher identity, round ears, green eyes,
+two front teeth and polished cartoon style. Coherent three-quarter rear seated
+pose, head turned naturally back over shoulder, holding navy/mint training planner
+up toward viewer. Naturally proportioned hind feet resting on ground, one violet
+big toenail correctly on top of the near toe. Purple planner binding/rim supports
+recognizability. No giant foot, human sole, disembodied limbs, acrobatic twist,
+text, numbers or watermark. Compact transparent app icon.
+Original: assets/gofer-shoulder-original.png
+App: public/gofer-shoulder.png
+Windows: assets/gofer-shoulder.ico

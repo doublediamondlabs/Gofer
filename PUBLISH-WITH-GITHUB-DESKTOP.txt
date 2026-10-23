@@ -1,0 +1,31 @@
+GO'FER — FIRST PUBLIC REPOSITORY
+
+Suggested name: Gofer
+Description: A local Windows training desk for running adventures, with food and
+bottle recipe export to the 2 Live Crew companion app.
+
+1. Back up your workspace, quit Gofer, and follow docs/MOVING-AND-SHARING.md.
+2. Put these source files directly in E:\Gofer (not E:\Gofer\Gofer).
+3. In GitHub Desktop, use File > New repository.
+   Name: Gofer. Local path: E:\ (the PARENT folder).
+   The resulting repository path should be E:\Gofer.
+   Do not generate another README or replace the supplied .gitignore.
+   If it says this folder is already a repository, use Add local repository instead.
+4. Review the changed files. Include app source, docs, screenshots, lockfile and
+   bundled assets. Exclude private exports, workspace files, network sync data,
+   label photos and watch files. The supplied .gitignore covers common examples.
+5. Commit any pending files with a summary such as "Gofer public desktop preview".
+6. Choose Publish repository, confirm the account and repository name, and UNCHECK
+   "Keep this code private". Publish.
+7. Open the online repository and confirm the README and three screenshots render.
+   You do not need GitHub Pages for this desktop application.
+
+Later updates: replace source files, review Changes, Commit, then Push origin.
+Other laptops do not update automatically when you push. Distribute the tested
+source package through your shared app folder and update each local installation.
+
+The npm package's "private": true setting prevents accidental npm publication;
+it does not prevent your GitHub repository from being public.
+
+No project-wide license is selected in this package. Public hosting and choosing
+an open-source license are separate decisions. Existing third-party notices remain.

@@ -1,0 +1,17 @@
+GO'FER 0.6.3 — PUBLIC DESKTOP PREVIEW
+
+Extract to a local folder such as E:\Gofer. Install Node.js 22.12+ with npm.
+Double-click Start-Gofer.cmd; first setup needs internet. Create your workspace.
+Run Create-Desktop-Shortcut.cmd for a desktop shortcut.
+
+Existing users on the same Windows account keep their saved workspace automatically.
+Personal data is in %LOCALAPPDATA%\DoubleDiamondGofer, separate from the app folder.
+Download a backup before moving/updating. Do not put that backup in the public repo.
+
+Read README.md for features and the 2 Live Crew file bridge.
+Read docs/MOVING-AND-SHARING.md for E:, network-share and second-laptop setup.
+Read PUBLISH-WITH-GITHUB-DESKTOP.txt to publish your new repository.
+
+All application updates through 0.6.2 are included. Public packaging adds documentation
+and fictional screenshots and omits the original personal reference schedules.
+Existing saved plans, imported plans and nutrition records are not removed.

@@ -1,0 +1,22 @@
+{
+  "name": "double-diamond-gofer",
+  "version": "0.6.3",
+  "private": true,
+  "type": "module",
+  "main": "desktop.cjs",
+  "engines": {
+    "node": ">=22.12.0"
+  },
+  "scripts": {
+    "start": "node server.mjs",
+    "desktop": "electron .",
+    "test": "node --test test/*.test.mjs"
+  },
+  "devDependencies": {
+    "electron": "45.0.0"
+  },
+  "dependencies": {
+    "@garmin/fitsdk": "21.218.0",
+    "exceljs": "4.4.0"
+  }
+}
