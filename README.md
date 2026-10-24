@@ -12,37 +12,37 @@ make it your own.
 
 **v0.6.3 · Desktop preview · Local data · No account required**
 
-![Home calendar with fictional demonstration workouts](docs/screenshots/home.png)
+!\[Home calendar with fictional demonstration workouts](docs/screenshots/home.png)
 
 ## Pick your adventure
 
-- **Your training calendar:** two months by default, plus day, month and three-month views.
-- **Race-focused drafts:** distance-based plans, hills and technical trail practice,
-  varied workouts, chosen peaks, optional back-to-backs and dedicated Backyard rehearsals.
-- **A plan you control:** edit workouts, record results, add notes and gear, or
-  Give it a Spin for a reviewed alternative within an eligible workout category.
-- **Race preparation:** review suggestions from a race website, model aid-station
-  time, and print a vest pace card for one to four equal-distance loops.
-- **Food & fuel:** save labels, review locally read label photos, build drink mixes,
-  log partial bottles and convert mL to US fl oz.
-- **Bring your watch files:** review completed activities exported as FIT or TCX
-  from Garmin or COROS. No direct watch-account connection.
-- **Keep it visible:** landscape PDF calendars, Excel exports and reusable plan files.
-- **Make it yours:** Edition & Tribute artwork, dedication and a gopher with a purple toe.
+* **Your training calendar:** two months by default, plus day, month and three-month views.
+* **Race-focused drafts:** distance-based plans, hills and technical trail practice,
+varied workouts, chosen peaks, optional back-to-backs and dedicated Backyard rehearsals.
+* **A plan you control:** edit workouts, record results, add notes and gear, or
+Give it a Spin for a reviewed alternative within an eligible workout category.
+* **Race preparation:** review suggestions from a race website, model aid-station
+time, and print a vest pace card for one to four equal-distance loops.
+* **Food \& fuel:** save labels, review locally read label photos, build drink mixes,
+log partial bottles and convert mL to US fl oz.
+* **Bring your watch files:** review completed activities exported as FIT or TCX
+from Garmin or COROS. No direct watch-account connection.
+* **Keep it visible:** landscape PDF calendars, Excel exports and reusable plan files.
+* **Make it yours:** Edition \& Tribute artwork, dedication and a gopher with a purple toe.
 
-![Food and fuel with fictional saved recipes](docs/screenshots/fuel.png)
+!\[Food and fuel with fictional saved recipes](docs/screenshots/fuel.png)
 
 ## Meet the companion: 2 Live Crew
 
-**Go’fer prepares the runner. [2 Live Crew](https://github.com/doublediamondlabs/2-Live-Crew)
-helps the crew on race day.**
+**Go’fer prepares the runner.** [**2 Live Crew**](https://github.com/doublediamondlabs/2-Live-Crew)
+**helps the crew on race day.**
 
 Save foods and bottle recipes once in Go’fer, then carry them to the companion app:
 
-1. In Go’fer, open **Food & fuel → Send to 2 Live Crew** and export the JSON file.
+1. In Go’fer, open **Food \& fuel → Send to 2 Live Crew** and export the JSON file.
 2. Transfer that file to the phone using USB, email or your preferred file service.
 3. In a Crew build that includes the Go’fer importer (v0.3.1 or later), open
-   **Setup → Defaults → Import from Go’fer**.
+**Setup → Defaults → Import from Go’fer**.
 4. Select the file and runner, review the foods and recipes, then save.
 
 This is a **one-way file transfer**, not automatic synchronization. Existing
@@ -55,12 +55,12 @@ Crew importer calculates calories, sodium and caffeine; carbs, protein and fat
 remain visible in the original label details but are not included in Crew totals.
 The companion importer must be installed/published separately; it is not bundled here.
 
-![Companion export review using fictional foods](docs/screenshots/crew-export.png)
+!\[Companion export review using fictional foods](docs/screenshots/crew-export.png)
 
 ## Get started on Windows
 
 1. Download this repository with **Code → Download ZIP**, and extract it fully
-   to a local folder such as `E:\Gofer`. Do not run it inside the ZIP.
+to a local folder such as `E:\\Gofer`. Do not run it inside the ZIP.
 2. Install Node.js **22.12 or newer** with npm if needed.
 3. Double-click **Start-Gofer.cmd**. First setup requires internet to install dependencies.
 4. Set up your own workspace, then add a race or a workout.
@@ -73,12 +73,12 @@ websites require internet. GitHub Pages cannot host Go’fer's desktop/server ru
 
 ## Your app folder and your records are separate
 
-| What | Default location |
-| --- | --- |
-| App source and launcher | Your extracted folder, such as `E:\Gofer` |
-| Personal workspace and recovery backups | `%LOCALAPPDATA%\DoubleDiamondGofer` |
-| Electron window settings | `%APPDATA%\DoubleDiamondGoferDesktop` |
-| Optional shared synchronization files | A folder you choose in Settings |
+|What|Default location|
+|-|-|
+|App source and launcher|Your extracted folder, such as `E:\\Gofer`|
+|Personal workspace and recovery backups|`%LOCALAPPDATA%\\DoubleDiamondGofer`|
+|Electron window settings|`%APPDATA%\\DoubleDiamondGoferDesktop`|
+|Optional shared synchronization files|A folder you choose in Settings|
 
 Moving the app folder does **not** move your training records. Each athlete on a
 separate Windows account/computer starts with an independent workspace. Copying
@@ -110,7 +110,7 @@ npm run desktop
 ```
 
 `npm start` provides a browser fallback on `127.0.0.1:43128`.
-`GOFER_DATA_DIR` and `GOFER_PORT` can isolate development workspaces.
+`GOFER\_DATA\_DIR` and `GOFER\_PORT` can isolate development workspaces.
 Local automated checks and Chromium UI checks have been run; native Windows,
 Android companion installation and real SMB synchronization need device testing.
 
@@ -121,6 +121,5 @@ adapted from 2 Live Crew; its MIT notice remains in `assets/2-Live-Crew-LICENSE.
 Bundled OCR notices remain in `public/ocr`; npm dependencies carry their own licenses.
 Gopher artwork was generated for this project; provenance is in `assets/ARTWORK.txt`.
 
-A project-wide open-source license has not yet been selected. Public visibility
-alone does not grant a general license to redistribute or modify the project.
-Third-party components retain their respective licenses.
+Go’fer is licensed under the MIT License. See LICENSE.txt. Third-party components retain their respective licenses.
+
