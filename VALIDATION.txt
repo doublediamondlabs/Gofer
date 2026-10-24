@@ -5,3 +5,5 @@ Screenshots captured from an isolated temporary workspace; no workspace records 
 Native Windows launch and real network-share operation not tested in this environment.
 
 v0.6.4: 47 tests passed; dedicated monthly/fortnight PDF layouts and optional instruction appendix checked in Chromium. Six-row busy month continues across 2 sheets; fortnight fits 1. Native Windows save and physical printer remain a user check.
+
+v0.6.5: 52 tests passed; Red Cedar, gradual shortfall, marathon, Backyard and actual-item totals checked. Browser preview and retained Adjust settings passed. Scheduling rules unchanged.

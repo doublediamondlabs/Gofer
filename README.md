@@ -134,3 +134,15 @@ print separately. Fictional examples are in `docs/print-examples`.
 Progress on the three agreed improvements lives in
 [the improvement checklist](docs/IMPROVEMENT-CHECKLIST.md): fridge calendar first,
 plan explanations second, and updates/recovery third.
+
+
+## v0.6.5 — Your draft, explained
+
+Draft review now shows requested versus scheduled peaks, dated peak long runs,
+back-to-back pairs, climbing versus entered limits, and taper dates. Expand
+Why these amounts? for numeric gradual long-run bounds, weekly budget/allocation
+differences, second-day bounds and climbing constraints. Weekly totals use actual
+generated sessions, exclude race day, and label dates by the draft's start day.
+Backyard review separates race goals, whole-yard rehearsals and reserved reset
+time. Existing plans and generator rules are unchanged; v0.6.4 fridge printing
+is included. Updates/recovery remains the third checkpoint.
