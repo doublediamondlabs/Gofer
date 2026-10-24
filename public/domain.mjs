@@ -36,7 +36,7 @@ export const sessionNotes={
  'Rest':'Rest or comfortable mobility.'
 };
 export function alternatives(w){
- if(w.locked||w.status!=='Planned'||['Rest','Race','Strength','Backyard'].includes(w.kind))return [];
+ if(w.locked||w.status!=='Planned'||['Rest','Race','Strength','Walk / hike','Backyard'].includes(w.kind))return [];
  const choices={
  'Hill repeats':['Same hill, different starting landmark','Comparable hill, same grade and footing'],
  'Sustained climb':['Familiar continuous climb','Comparable sustained climb with the same grade'],

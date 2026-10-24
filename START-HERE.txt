@@ -1,4 +1,4 @@
-GO'FER 0.6.6 — PUBLIC DESKTOP PREVIEW
+GO'FER 0.6.7 — PUBLIC DESKTOP PREVIEW
 
 Extract to a local folder such as E:\Gofer. Install Node.js 22.12+ with npm.
 Double-click Start-Gofer.cmd; first setup needs internet. Create your workspace.

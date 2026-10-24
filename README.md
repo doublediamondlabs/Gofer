@@ -165,3 +165,7 @@ Restore retains its local recovery receipt and does not import another machine's
 backup status. Installer and automatic upgrades remain deferred.
 
 This cumulative update retains fridge printing and explained plans.
+
+## v0.6.7 — Wheel scope clarification
+
+The workout wheel button now reads “Try another running workout.” Strength, rest/mobility, and walk/hike sessions show a short explanation instead. The note follows workout-type changes in the editor. Walk/hike sessions are excluded from running alternatives. Saved records and plan generation are unchanged.

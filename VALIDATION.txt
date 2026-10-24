@@ -9,3 +9,5 @@ v0.6.4: 47 tests passed; dedicated monthly/fortnight PDF layouts and optional in
 v0.6.5: 52 tests passed; Red Cedar, gradual shortfall, marathon, Backyard and actual-item totals checked. Browser preview and retained Adjust settings passed. Scheduling rules unchanged.
 
 v0.6.6: 59 tests passed. Backup receipts, failed operations, restore and sync destination checks covered. Browser and simulated desktop backup flows passed. Native Windows Save dialog and opening folders require local verification.
+
+v0.6.7: JavaScript syntax checked; 15 existing domain, terrain, and Backyard tests passed. Wheel eligibility verified for strength, rest, and walk/hike; running alternatives remain available. Native Windows visual check remains a user check.
