@@ -11,3 +11,5 @@ v0.6.5: 52 tests passed; Red Cedar, gradual shortfall, marathon, Backyard and ac
 v0.6.6: 59 tests passed. Backup receipts, failed operations, restore and sync destination checks covered. Browser and simulated desktop backup flows passed. Native Windows Save dialog and opening folders require local verification.
 
 v0.6.7: JavaScript syntax checked; 15 existing domain, terrain, and Backyard tests passed. Wheel eligibility verified for strength, rest, and walk/hike; running alternatives remain available. Native Windows visual check remains a user check.
+
+v0.6.8: JavaScript syntax check, 14 existing domain/store tests, and a focused copy-flow harness passed. Checked no write on open, new identity on save, original preservation, null nutrients, and deep-cloned ingredients. Browser UI verification was blocked by unavailable Chromium and a failed browser download; native visual check remains.

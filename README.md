@@ -169,3 +169,6 @@ This cumulative update retains fridge printing and explained plans.
 ## v0.6.7 — Wheel scope clarification
 
 The workout wheel button now reads “Try another running workout.” Strength, rest/mobility, and walk/hike sessions show a short explanation instead. The note follows workout-type changes in the editor. Walk/hike sessions are excluded from running alternatives. Saved records and plan generation are unchanged.
+
+## v0.6.8 — Copy foods and mixes
+Saved foods & mixes now offers Copy. It opens an editable draft and saves a separate item only when you choose Save. Bottle recipes retain their ingredient quantities and recalculate totals as those quantities change. For powder-based drinks, save the label per scoop, then use Build a bottle to choose the number of scoops and final fluid volume. See CHANGELOG.md for pending changes and the release recommendation.
