@@ -1,4 +1,4 @@
-GO'FER 0.6.3 — PUBLIC DESKTOP PREVIEW
+GO'FER 0.6.4 — PUBLIC DESKTOP PREVIEW
 
 Extract to a local folder such as E:\Gofer. Install Node.js 22.12+ with npm.
 Double-click Start-Gofer.cmd; first setup needs internet. Create your workspace.
@@ -15,3 +15,10 @@ Read PUBLISH-WITH-GITHUB-DESKTOP.txt to publish your new repository.
 All application updates through 0.6.2 are included. Public packaging adds documentation
 and fictional screenshots and omits the original personal reference schedules.
 Existing saved plans, imported plans and nutrition records are not removed.
+
+FRIDGE PRINTING UPDATE
+Back up your workspace, quit Gofer, and copy this package's Gofer CONTENTS
+into E:\Gofer, replacing matching app files. Keep your .git folder.
+Open Print / export, choose dates, then monthly or two-week PDF. Full workout
+instructions are optional separate pages. See docs/IMPROVEMENT-CHECKLIST.md.
+The app source and MIT license from your current GitHub repository are retained.

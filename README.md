@@ -122,3 +122,15 @@ Gopher artwork was generated for this project; provenance is in `assets/ARTWORK.
 
 Go’fer is licensed under the MIT License. See LICENSE.txt. Third-party components retain their respective licenses.
 
+
+## v0.6.4 — Back to the fridge
+
+Print / export now uses a dedicated landscape calendar with weekly scheduled-mile
+summaries, completion boxes, handwriting space, and a local print timestamp.
+Monthly and two-week views respect the exact selected dates. Busy months continue
+onto another sheet instead of shrinking the type. Optional full workout instructions
+print separately. Fictional examples are in `docs/print-examples`.
+
+Progress on the three agreed improvements lives in
+[the improvement checklist](docs/IMPROVEMENT-CHECKLIST.md): fridge calendar first,
+plan explanations second, and updates/recovery third.

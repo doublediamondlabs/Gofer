@@ -3,3 +3,5 @@ Gofer 0.6.3 public package
 Public-source UI verified with fictional data: Home, Food & fuel, Crew export, empty reference schedule guidance.
 Screenshots captured from an isolated temporary workspace; no workspace records included.
 Native Windows launch and real network-share operation not tested in this environment.
+
+v0.6.4: 47 tests passed; dedicated monthly/fortnight PDF layouts and optional instruction appendix checked in Chromium. Six-row busy month continues across 2 sheets; fortnight fits 1. Native Windows save and physical printer remain a user check.
