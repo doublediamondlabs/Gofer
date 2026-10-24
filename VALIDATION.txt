@@ -15,3 +15,7 @@ v0.6.7: JavaScript syntax checked; 15 existing domain, terrain, and Backyard tes
 v0.6.8: JavaScript syntax check, 14 existing domain/store tests, and a focused copy-flow harness passed. Checked no write on open, new identity on save, original preservation, null nutrients, and deep-cloned ingredients. Browser UI verification was blocked by unavailable Chromium and a failed browser download; native visual check remains.
 
 v0.7.0: 64 automated tests passed. Browser workflow checked a large sample collection, pagination, search/favorites, archive/restore, preserved intake snapshots, manual recipe classification, preset creation and reload, capacity guard, three-scoop totals, partial bottle volume, and independent copies. Laptop-width layout reviewed. Native Windows check remains recommended before release.
+
+v0.8.0: 72 automated tests passed. Two isolated browser workspaces verified recipe export with dependencies, first import, repeat import without duplicates, explicit changed-recipe updates, recovery receipts, and unchanged intake history. Import validation, reference remapping, kept-ingredient recalculation, ambiguous matches and capacity limits covered. Import comparison layout inspected at laptop size. Native Windows file-picker and network-share transfer remain local checks.
+
+Also verified v0.8.0 converter in browser: half/one/two US gallon presets, 300 mL preset, reverse fluid-ounce conversion, and empty/zero values.

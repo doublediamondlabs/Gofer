@@ -3,8 +3,17 @@
 ## Not yet released
 
 Latest published release: v0.6.6 (pre-release; confirmed by Bobby).
-Current development package: v0.7.0.
-Recommendation: **Release candidate after local review.** This completes a meaningful food-and-bottle workflow improvement. Try existing entries, a bottle recipe, and archive/restore on Windows before publishing v0.7.0. No urgent release is required.
+Current development package: v0.8.0.
+Recommendation: **Release candidate after local review.** This bundles the food collections and Go’fer recipe exchange. Try a recipe transfer between your two Windows installs before publishing v0.8.0. No urgent release is required.
+
+### v0.8.0 — Share recipes and convert jug volumes
+- Volume converter supports mL, US fluid ounces and US gallons; quick picks include ½-, 1-, and 2-gallon jugs plus the 300 mL hand bottle.
+- Share selected recipes, foods and bottle presets in a dedicated JSON file; dependencies come along automatically.
+- Import review compares incoming and local definitions. Reuse identical items, keep yours, add a copy, or explicitly update.
+- Final preview shows additions, updates and recalculated recipe totals before any write.
+- A recovery backup precedes the import. Training records and historical intake snapshots remain untouched.
+- Repeat imports reuse matching definitions, including files re-shared by another Go’fer.
+- Both sender and recipient need v0.8.0 or newer for this workflow. No 2 Live Crew update is needed.
 
 ### v0.7.0 — Organize the snack department
 - Separate Foods & ingredients, My bottles, and Saved recipes collections.
