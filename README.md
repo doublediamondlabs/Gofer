@@ -50,9 +50,8 @@ same-name defaults are skipped. Race courses, training calendars, completed
 workouts and intake logs are not transferred. Verify serving basis and bottle
 capacity when reviewing an imported recipe.
 
-Go’fer tracks calories, carbs, protein, fat, sodium and caffeine. The initial
-Crew importer calculates calories, sodium and caffeine; carbs, protein and fat
-remain visible in the original label details but are not included in Crew totals.
+Go’fer tracks calories, carbs, protein, fat, sodium and caffeine. The Crew importer calculates 
+calories, carbs, protein, fat, sodium and caffeine and are included in Crew totals (Crew v0.3.2).
 The companion importer must be installed/published separately; it is not bundled here.
 
 !\[Companion export review using fictional foods](docs/screenshots/crew-export.png)
@@ -60,7 +59,7 @@ The companion importer must be installed/published separately; it is not bundled
 ## Get started on Windows
 
 1. Download this repository with **Code → Download ZIP**, and extract it fully
-to a local folder such as `E:\\Gofer`. Do not run it inside the ZIP.
+to a local folder such as `E:\\\\Gofer`. Do not run it inside the ZIP.
 2. Install Node.js **22.12 or newer** with npm if needed.
 3. Double-click **Start-Gofer.cmd**. First setup requires internet to install dependencies.
 4. Set up your own workspace, then add a race or a workout.
@@ -75,9 +74,9 @@ websites require internet. GitHub Pages cannot host Go’fer's desktop/server ru
 
 |What|Default location|
 |-|-|
-|App source and launcher|Your extracted folder, such as `E:\\Gofer`|
-|Personal workspace and recovery backups|`%LOCALAPPDATA%\\DoubleDiamondGofer`|
-|Electron window settings|`%APPDATA%\\DoubleDiamondGoferDesktop`|
+|App source and launcher|Your extracted folder, such as `E:\\\\Gofer`|
+|Personal workspace and recovery backups|`%LOCALAPPDATA%\\\\DoubleDiamondGofer`|
+|Electron window settings|`%APPDATA%\\\\DoubleDiamondGoferDesktop`|
 |Optional shared synchronization files|A folder you choose in Settings|
 
 Moving the app folder does **not** move your training records. Each athlete on a
@@ -110,7 +109,7 @@ npm run desktop
 ```
 
 `npm start` provides a browser fallback on `127.0.0.1:43128`.
-`GOFER\_DATA\_DIR` and `GOFER\_PORT` can isolate development workspaces.
+`GOFER\\\_DATA\\\_DIR` and `GOFER\\\_PORT` can isolate development workspaces.
 Local automated checks and Chromium UI checks have been run; native Windows,
 Android companion installation and real SMB synchronization need device testing.
 
