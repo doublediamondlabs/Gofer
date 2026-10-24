@@ -13,3 +13,5 @@ v0.6.6: 59 tests passed. Backup receipts, failed operations, restore and sync de
 v0.6.7: JavaScript syntax checked; 15 existing domain, terrain, and Backyard tests passed. Wheel eligibility verified for strength, rest, and walk/hike; running alternatives remain available. Native Windows visual check remains a user check.
 
 v0.6.8: JavaScript syntax check, 14 existing domain/store tests, and a focused copy-flow harness passed. Checked no write on open, new identity on save, original preservation, null nutrients, and deep-cloned ingredients. Browser UI verification was blocked by unavailable Chromium and a failed browser download; native visual check remains.
+
+v0.7.0: 64 automated tests passed. Browser workflow checked a large sample collection, pagination, search/favorites, archive/restore, preserved intake snapshots, manual recipe classification, preset creation and reload, capacity guard, three-scoop totals, partial bottle volume, and independent copies. Laptop-width layout reviewed. Native Windows check remains recommended before release.

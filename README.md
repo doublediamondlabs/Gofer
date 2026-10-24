@@ -172,3 +172,8 @@ The workout wheel button now reads “Try another running workout.” Strength, 
 
 ## v0.6.8 — Copy foods and mixes
 Saved foods & mixes now offers Copy. It opens an editable draft and saves a separate item only when you choose Save. Bottle recipes retain their ingredient quantities and recalculate totals as those quantities change. For powder-based drinks, save the label per scoop, then use Build a bottle to choose the number of scoops and final fluid volume. See CHANGELOG.md for pending changes and the release recommendation.
+
+## v0.7.0 — An organized food and bottle collection
+Food & fuel now separates Foods & ingredients, My bottles, and Saved recipes. Each collection has search, favorites, an archive view, expandable details, and bounded pages. Use My bottles to save reusable sizes, then Build a bottle to choose ingredients and label servings. Nutrition scales with ingredient servings; the finished drink volume stays independent of bottle capacity.
+
+Existing ingredient-based recipes appear under Saved recipes without rewriting records. To move a manually entered mix, open Edit and change Save under. Archive preserves past intake and existing ingredient references. Bottle presets share the hydration gear records and are included in normal backups and sync; changing capacity does not resize saved recipes. Crew export includes active foods/recipes only, not bottle presets. See CHANGELOG.md for the release decision and accumulated changes.
