@@ -22,20 +22,21 @@ Unmeasured/time-only sessions do not invent a mileage value. Busy months may use
 multiple sheets. Long instructions belong in the optional instructions section.
 No training records are rewritten by printing.
 
-## 2. Explain generated plans — v0.6.5 ready for user check
+## 2. Explain generated plans — v0.6.5 installed by user
 
 - [x] Requested versus generated peak weekly mileage and long-run targets.
 - [x] Longest-run dates, back-to-back weekends, climbing emphasis and taper.
 - [x] Concrete reasons for every unmet/reduced target.
 - [x] Verify summary against generated workouts: Red Cedar, shorter race, Backyard.
-- [ ] User review before moving to the next checkpoint.
+- [x] User confirmed the update and authorized the next checkpoint.
 
-## 3. Updates and recovery — planned
+## 3. Updates and recovery — v0.6.6 ready for Windows check
 
-- [ ] App version, records location, last successful backup and last successful sync.
-- [ ] Distinguish exported/downloaded backups from automatic recovery copies.
-- [ ] Successful operations advance timestamps; canceled/failed operations do not.
-- [ ] Straightforward backup/recovery actions and Windows user check.
+- [x] App version, records location, last successful backup and last successful sync.
+- [x] Distinguish exported/downloaded backups from automatic recovery copies.
+- [x] Successful operations advance timestamps; canceled/failed operations do not.
+- [x] Straightforward backup/recovery actions.
+- [ ] Native Windows Save dialog and Open Folder user check.
 
 ## Deferred
 
@@ -55,3 +56,9 @@ gradual shortfall bounds explained, marathon taper and race exclusion checked,
 Backyard whole-yard and timing distinctions preserved. Browser builder checks
 passed for rejected progression, preview, Adjust settings, and shorter-race reset.
 No training-engine change; existing saved plans are not rewritten.
+
+
+v0.6.6: 59 automated tests passed, including verified exports, failed writes,
+protected live workspace path, browser preparation, restore metadata and sync
+status. Browser UI verified save/reload and simulated desktop cancel/save at laptop
+size. Native Windows Save dialog and Open Folder require user check.

@@ -146,3 +146,22 @@ generated sessions, exclude race day, and label dates by the draft's start day.
 Backyard review separates race goals, whole-yard rehearsals and reserved reset
 time. Existing plans and generator rules are unchanged; v0.6.4 fridge printing
 is included. Updates/recovery remains the third checkpoint.
+
+
+## v0.6.6 — Your safety net
+
+Settings opens with app version, verified desktop backup receipt, local recovery
+copy receipt, and last successful sync for the selected shared folder. Use Back up
+now or Restore from a file there. Desktop backup opens a Save dialog and verifies
+the written bytes before recording success; canceling does not advance timestamps.
+Browser mode separately reports a prepared download, not a confirmed saved file.
+
+Where your records live shows both local paths; the desktop app can open those
+folders. Local recovery copies are separate from exported backups and do not
+protect against losing the laptop drive. Receipts record past operations; they do
+not continuously verify that files still exist. Older backups may exist without
+recorded timestamps. Changing the sync folder clears the old folder's sync status.
+Restore retains its local recovery receipt and does not import another machine's
+backup status. Installer and automatic upgrades remain deferred.
+
+This cumulative update retains fridge printing and explained plans.
